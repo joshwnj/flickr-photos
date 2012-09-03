@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Photos</title>
+    <link href="photos.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Photos</h1>
+    
+    <div id="photos"></div>
+
+	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script src="photos.js"></script>
+    <script>
+    setupPhotos(['squirrel', 'cat'], function (err, result) {
+        if (err) { return console.error(err); }
+    });
+    </script>
+  </body>
+</html>

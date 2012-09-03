@@ -1,0 +1,22 @@
+body {
+    font: 16px/1 Helvetica, sans-serif;
+}
+
+
+#photos {
+    float: left;
+    width: 100%;
+}
+
+.photo {
+    float: left;
+    margin: 0 2px 2px 0;
+    overflow: hidden;
+    height: 160px;
+}
+
+.photo,
+.photo img {
+    min-width: 160px;
+    max-width: 240px;
+}
